@@ -25,7 +25,7 @@ def longurltoshort(longurl):
             result.write(shorturl+'\n')
             
 if __name__=='__main__':
-    filename=raw_input("请输入要粘贴的URL文件名:")
+    filename=input("请输入要粘贴的URL文件名:")
     pasteurl(filename)
     longurl='targeturl.txt'
     longurltoshort(longurl)
